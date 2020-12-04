@@ -9,7 +9,7 @@ import {
 import '../css/App.css';
 
 import Header from './Header';
-import Evaluaciones from "./Evaluaciones";
+import Evaluaciones from "./Evaluaciones/Evaluaciones";
 import Alumnos from "./Alumnos/Alumnos";
 import Calificaciones from "./Calificaciones";
 import MisCosas from "./MisCosas";
