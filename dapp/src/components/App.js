@@ -11,7 +11,7 @@ import '../css/App.css';
 import Header from './Header';
 import Evaluaciones from "./Evaluaciones/Evaluaciones";
 import Alumnos from "./Alumnos/Alumnos";
-import Calificaciones from "./Calificaciones";
+import Calificaciones from "./Calificaciones/Calificaciones";
 import MisCosas from "./MisCosas";
 
 const Navegacion = () => (
