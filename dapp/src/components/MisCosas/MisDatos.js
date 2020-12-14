@@ -15,8 +15,8 @@ const MisDatos = ({drizzle, drizzleState}) => {
                     method={"quienSoy"}
                     methodArgs={[]}
                     render={datos => <>
-                        <li>Nombre: <span style={{color: "blue"}}>{datos && datos._nombre || "No matriculado"}</span></li>
-                        <li>Email: <span style={{color: "blue"}}>{datos && datos._email || "No matriculado"}</span></li>
+                        <li>Nombre: <span style={{color: "blue"}}>{(datos && datos._nombre) || "No matriculado"}</span></li>
+                        <li>Email: <span style={{color: "blue"}}>{(datos && datos._email) || "No matriculado"}</span></li>
                     </>}
                 />
                 <AccountData

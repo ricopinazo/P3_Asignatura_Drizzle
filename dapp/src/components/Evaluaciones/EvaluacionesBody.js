@@ -1,8 +1,5 @@
-import {newContextComponents} from "@drizzle/react-components";
 
 import EvaluacionRow from "./EvaluacionRow";
-
-const {ContractData} = newContextComponents;
 
 const EvaluacionesBody = (props) => {
     const {drizzle, drizzleState, evaluacionesLength} = props;
